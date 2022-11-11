@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+    background-color: burlywood;
+}
+nav{
+    color: green;
+    position: fixed;
+    padding: 15px;
+}
+nav a:hover{
+    text-decoration: none;
+}
+.banner{
+    background-image: url(/img/kave1.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+}
