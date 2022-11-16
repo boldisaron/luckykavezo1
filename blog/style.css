@@ -20,18 +20,24 @@ body{
 #active-page{
     font-weight: bold; 
 }
-#blog-image{
-   padding-left: 250px;
-   padding-top: 100px;
-   height: 300px;
-   width: 300px;
+#blog-img{
+   height: 250px;
+   width: 250px;
    max-width: 100%;
    vertical-align: auto;
+   padding-bottom: 30px;
+   
+   
 }
 .box {
     display: flex;
     align-items:center;
  }
-.post{
-    padding-left: 350px;
+
+.footer{
+    background-color: green;
+    width: 100%;
+}
+.card{
+    background-color: bisque;
 }
