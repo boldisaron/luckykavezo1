@@ -21,11 +21,11 @@ body{
     font-weight: bold; 
 }
 #blog-img{
-   height: 250px;
-   width: 250px;
+   height: 300px;
+   width: 300px;
    max-width: 100%;
    vertical-align: auto;
-   padding-bottom: 30px;
+  
    
    
 }
@@ -37,6 +37,8 @@ body{
 .footer{
     background-color: green;
     width: 100%;
+    position: absolute;
+    bottom: 0px;
 }
 .card{
     background-color: bisque;
