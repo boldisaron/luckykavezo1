@@ -1,6 +1,9 @@
 .navbar{
     background-color: green;
 }
+.navbar-brand{
+    padding-left: 5px;
+}
 body{
     background-color: bisque;
 }
@@ -34,6 +37,8 @@ body{
     position: absolute;
     bottom: 0px;
 }
-.card{
-    background-color: bisque;
+.footer-item{
+    width: 24px;
+    height: 24px;
+    padding-right: 5px;
 }
