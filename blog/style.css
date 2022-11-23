@@ -24,7 +24,7 @@ body{
    height: 250px;
    width: 250px;
    max-width: 100%;
-   vertical-align: auto; 
+   vertical-align: auto;
 }
 .box {
     display: flex;
