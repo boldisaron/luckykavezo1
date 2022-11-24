@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 .navbar{
     background-color: #196619;
 }
-#navbar-brand{
-    padding-left: 5px;
+.navbar-brand{
+    padding-left: 10px;
 }
 body{
     background-color: bisque;
@@ -14,10 +16,7 @@ body{
     height: 400px;
     outline: 2px solid #196619;
 }
-#lucky{
-    font-size: large;
-    padding-left: 10px;
-}
+
 #active-page{
     font-weight: bold; 
 }
@@ -28,9 +27,26 @@ body{
 .footer{
     background-color: #196619;
     width: 100%;
+    color: white;
 }
 .footer-item{
     width: 24px;
     height: 24px;
     padding-right: 5px;
+}
+#index{
+    background-image: url(../főoldal/pics/background.jpg);
+}
+#intro{
+    height: 100vh;
+    color: white;
+}
+
+#intro-bg{
+    background: rgba(0, 0, 0, 0.8);
+    outline: #196619 1px solid;
+    
+}
+#index #intro h1{
+    font-family: 'Indie Flower', cursive;
 }

@@ -1,17 +1,19 @@
 <!doctype html>
 <html lang="hu">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lucky Kávézó</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Lucky - Főoldal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
-  </head>
-  <body>
+</head>
+
+<body id="index">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <a class="navbar-brand" href="./index.html" id="lucky">
+        <a class="navbar-brand" href="./index.html">
             Lucky
-            <img src="../ico/clover.svg" alt="clover" style="width: 32px; height: 29px;" id="navbar-brand">
+            <img src="../ico/clover.svg" alt="clover" style="width: 32px; height: 29px;" class="ms-2">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,13 +23,26 @@
             <div class="navbar-nav">
                 <a class="nav-link active" href="./index.html">Főoldal</a>
                 <a class="nav-link " href="../kávéfajták/kavefajtak.html">Kávéfajták</a>
-                <a class="nav-link" href="..//sutemenyek.html">Sütemények</a>
+                <a class="nav-link" href="">Sütemények</a>
                 <a class="nav-link" href="../blog/blog.html">Blog</a>
             </div>
         </div>
     </nav>
-    
-    
+
+    <div class="container">
+        <div class="row" id="intro">
+            <div class="col-lg-5 align-self-center text-center" id="intro-bg">
+                <h1 class="my-4">Lucky Kávézó</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci cupiditate, excepturi eius iusto
+                    esse laboriosam, sit molestias architecto sapiente quia dicta enim ipsa eveniet ab doloremque quis
+                    saepe, facere doloribus!</p>
+                    <img src="../ico/coffee_cup.svg" alt="coffee" class="w-25 mx-5 mb-5">
+            </div>
+                       
+        </div>
+    </div>
+
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -37,6 +52,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
         crossorigin="anonymous"></script>
-    <script src="./js/code.js"></script>
-  </body>
+   
+</body>
+
 </html>
