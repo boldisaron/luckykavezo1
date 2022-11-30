@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.navbar{
+    background-color: #196619;
+}
+.navbar-brand{
+    padding-left: 10px;
+}
+body{
+    background-color: bisque;
+}
+.banner{
+    background-image: url(../blog/pics/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+    outline: 2px solid #196619;
+}
+
+#active-page{
+    font-weight: bold; 
+}
+#blog-img{
+    border: #196619 1px solid;
+    vertical-align: auto;
+}
+.footer{
+    background-color: #196619;
+    width: 100%;
+    color: white;
+}
+.footer-item{
+    width: 24px;
+    height: 24px;
+    padding-right: 5px;
+}
+#index{
+    background-image: url(../főoldal/pics/background.jpg);
+}
+#intro{
+    height: 100vh;
+    color: white;
+}
+
+#intro-bg{
+    background: rgba(0, 0, 0, 0.8);
+    outline: #196619 1px solid;
+    
+}
+#index #intro h1{
+    font-family: 'Indie Flower', cursive;
+}
