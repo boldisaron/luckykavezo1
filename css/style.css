@@ -20,7 +20,7 @@ body{
 #active-page{
     font-weight: bold; 
 }
-#blog-img{
+.blog-img{
     border: #196619 1px solid;
     vertical-align: auto;
 }
@@ -49,4 +49,12 @@ body{
 }
 #index #intro h1{
     font-family: 'Indie Flower', cursive;
+}
+.article{
+    border-top: #196619 1px solid;
+}
+.article-title{
+    font-family: 'Indie Flower', cursive;
+    color: #196619;
+    font-size: 50px;
 }
