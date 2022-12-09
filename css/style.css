@@ -58,3 +58,17 @@ body{
     color: #196619;
     font-size: 50px;
 }
+.box{
+    border: 1px solid #196619;
+}
+
+.box h2 {
+    font-size: 1.5rem;
+    background-color: #196619;
+    color: #fff;
+    padding: .5rem;
+}
+
+.box span.badge {
+    margin: .25rem;
+}
